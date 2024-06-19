@@ -11,7 +11,7 @@ defineProps({
 });
 </script>
 <template>
-  <v-col cols="12" md="4">
+  <v-col md="4" lg="3">
     <v-card>
       <v-img :src="propiedad.imagen" height="250" cover />
       <v-card-title class="font-weight-bold">

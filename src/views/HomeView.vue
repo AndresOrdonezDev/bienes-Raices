@@ -6,8 +6,8 @@ const {filterItems, alberca} = usePropiedades()
 </script>
 
 <template>
-    <h1 class="text-center text-h3 font-weight-bold my-5">Nuestras Propiedades</h1>
-    <v-card class="text-h5">
+    <h1 class="text-center text-h4 lg:text-h3 font-weight-bold my-5">Nuestras Propiedades</h1>
+    <v-card class="lg:text-h5">
       Búsqueda:
       <v-checkbox label="Alberca" v-model="alberca"/>
     </v-card>
